@@ -1,0 +1,113 @@
+body {
+  background: linear-gradient(to right, rgb(193, 208, 247), rgb(234, 229, 229));
+}
+
+
+.latest {
+  margin-top: 5rem;
+  border: none;
+  width: 6rem;
+  height: 1.8rem;
+  display: inline-block;
+  margin-left: 3rem;
+  font-family: 20px;
+  font-weight: 600;
+
+  background-image: linear-gradient(bottom, rgb(206, 228, 246) 0%, rgb(202, 223, 240) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(201, 225, 245) 0%, rgb(97, 155, 203) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(205, 231, 253) 0%, rgb(216, 234, 249) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(214, 235, 253) 0%, rgb(97, 155, 203) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(190, 213, 232) 0%, rgb(225, 239, 250) 100%);
+
+}
+
+button{
+  margin-left: 60rem;
+  margin-top: 5rem;
+  padding: .7rem;
+  background-color: blue;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  width: 70%;
+  margin-left: 4rem;
+  /* background-color: rgb(226, 231, 234); */
+  gap: 1rem;
+}
+
+img {
+  width: 3rem;
+  margin-top: 2rem;
+  border-radius: 30px;
+}
+
+.first-msg {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+
+  background-image: linear-gradient(bottom, rgb(206, 228, 246) 0%, rgb(202, 223, 240) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(201, 225, 245) 0%, rgb(203, 228, 248) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(205, 231, 253) 0%, rgb(216, 234, 249) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(214, 235, 253) 0%, rgb(214, 234, 250) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(190, 213, 232) 0%, rgb(225, 239, 250) 100%);
+    border-radius: 10px;
+}
+
+.msg-box {
+  width: 30rem;
+}
+
+.online{
+  margin-left: 1rem;
+  margin-top: -3rem;
+}
+
+.comments{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
+.message{
+  color: navy;
+}
+
+
+.right{
+  margin-top: -90rem;
+}
+
+.discussion{
+  margin-left: 61rem;
+  margin-top: 2rem;
+  color: blue;
+}
+
+.follow{
+  margin-left: 61rem;
+    margin-top: 2rem;
+}
+
+.line{
+  width: 10rem;
+  border-bottom: 1px solid grey;
+margin-left: 61rem;
+  margin-top: 2rem;
+}
